@@ -1,10 +1,10 @@
-package com.krystianfh.CodeFellowship;
+package com.krystianfh.codefellowship;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CodeFellowshipApplicationTests {
+class CodefellowshipApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -1,13 +1,13 @@
-package com.krystianfh.CodeFellowship;
+package com.krystianfh.codefellowship;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class CodeFellowshipApplication {
+public class CodefellowshipApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(CodeFellowshipApplication.class, args);
+		SpringApplication.run(CodefellowshipApplication.class, args);
 	}
 
 }
