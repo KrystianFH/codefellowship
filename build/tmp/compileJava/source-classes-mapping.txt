@@ -1,2 +1,2 @@
-com/krystianfh/CodeFellowship/CodeFellowshipApplication.java
- com.krystianfh.CodeFellowship.CodeFellowshipApplication
+com/krystianfh/codefellowship/CodefellowshipApplication.java
+ com.krystianfh.codefellowship.CodefellowshipApplication
