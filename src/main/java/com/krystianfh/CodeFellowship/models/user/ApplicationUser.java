@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Collection;
+//import java.util.Date;
 
 @Entity
 public class ApplicationUser implements UserDetails {
@@ -19,45 +20,73 @@ public class ApplicationUser implements UserDetails {
 
     String username;
     String password;
+    String firstName;
+    String lastName;
+    int dateOfBirth;
+    String bio;
 
-    public ApplicationUser(){};
-    public ApplicationUser(String username, String password){
+
+    public ApplicationUser() {}
+
+
+
+    public ApplicationUser(String username, String password, String firstName, String lastName, int dateOfBirth, String bio) {
         this.username = username;
         this.password = password;
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.dateOfBirth = dateOfBirth;
+        this.bio = bio;
     }
 
     @Override
-    public Collection<? extends GrantedAuthority> getAuthorities(){
+    public Collection<? extends GrantedAuthority> getAuthorities() {
         return null;
     }
 
     @Override
-    public String getPassword(){
+    public String getPassword() {
         return password;
     }
 
     @Override
-    public String getUsername(){
+    public String getUsername() {
         return username;
     }
 
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public int getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public String getBio() {
+        return bio;
+    }
+
     @Override
-    public boolean isAccountNonExpired(){
+    public boolean isAccountNonExpired() {
         return true;
     }
 
     @Override
-    public boolean isAccountNonLocked(){
+    public boolean isAccountNonLocked() {
         return true;
     }
 
     @Override
-    public boolean isCredentialsNonExpired(){
+    public boolean isCredentialsNonExpired() {
         return true;
     }
 
     @Override
-    public boolean isEnabled(){
+    public boolean isEnabled() {
         return true;
     }
 

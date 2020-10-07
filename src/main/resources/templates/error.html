@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en" , xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<!--<nav th:replace="~{fragments::nav bar}"></nav>-->
+
+<table>
+    <tr>
+        <td>Path</td>
+        <td th:text="${path}"></td>
+    </tr>
+    <tr>
+        <td>Error</td>
+        <td th:text="${error}"></td>
+    </tr>
+    <tr>
+        <td>Status</td>
+        <td th:text="${status}"></td>
+    </tr>
+    <tr>
+        <td>Message</td>
+        <td th:text="${message}"></td>
+    </tr>
+    <tr>
+        <td>Exception</td>
+        <td th:text="${exception}"></td>
+    </tr>
+    <tr>
+        <td>Trace</td>
+        <td th:text="${trace}"></td>
+    </tr>
+
+</table>
+</body>
+</html>

@@ -1,2 +1,14 @@
-com/krystianfh/codefellowship/CodefellowshipApplication.java
- com.krystianfh.codefellowship.CodefellowshipApplication
+com/krystianfh/codefellowship/controllers/HomeController.java
+ com.krystianfh.codefellowship.controllers.HomeController
+com/krystianfh/codefellowship/CodeFellowshipApplication.java
+ com.krystianfh.codefellowship.CodeFellowshipApplication
+com/krystianfh/codefellowship/configs/WebSecurityConfig.java
+ com.krystianfh.codefellowship.configs.WebSecurityConfig
+com/krystianfh/codefellowship/models/user/ApplicationUserRepository.java
+ com.krystianfh.codefellowship.models.user.ApplicationUserRepository
+com/krystianfh/codefellowship/configs/UserDetailsServiceImpl.java
+ com.krystianfh.codefellowship.configs.UserDetailsServiceImpl
+com/krystianfh/codefellowship/controllers/ApplicationUserController.java
+ com.krystianfh.codefellowship.controllers.ApplicationUserController
+com/krystianfh/codefellowship/models/user/ApplicationUser.java
+ com.krystianfh.codefellowship.models.user.ApplicationUser
